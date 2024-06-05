@@ -1,0 +1,5 @@
+log.html
+*.html
+*.xml
+venv/
+playwright-log.txt

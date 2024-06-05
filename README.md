@@ -44,20 +44,3 @@ Para executar os testes, use o comando:
 ```sh
 robot -d results tests
 ```
-
-### Outros comandos úteis
-
-- Para executar testes específicos:
-  ```sh
-  robot -d results -i tag tests/
-  ```
-
-- Para listar os testes disponíveis:
-  ```sh
-  robot --testlist tests/
-  ```
-
-- Para gerar relatórios específicos:
-  ```sh
-  rebot --outputdir results output.xml
-  ```
